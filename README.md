@@ -28,7 +28,7 @@
            </ol>
             <h6>Public S3 URL</h6>
             <ol>
-             <oi>https://s3-external-1.amazonaws.com/cf-templates-1lev62qykeen-us-east-1/2020117SYK-new.templateqb2p3vhbbv</li>
+             <oi>https://cf-templates-1lev62qykeen-us-east-1.s3.amazonaws.com/2020117SYK-new.templateqb2p3vhbbv.json</li>
             </ol>
         </td>
         <td nowrap width="200" valign="top">
@@ -38,7 +38,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fs3-external-1.amazonaws.com%2Fcf-templates-1lev62qykeen-us-east-1%2F2020117SYK-new.templateqb2p3vhbbv&stackName=aaaa&param_AllowAllInboundPrivateRuleNumber=150&param_AllowAllOutboundPrivateRuleNumber=100&param_AllowAllOutboundPublicRuleNumber=100&param_AllowHttpToPublicRuleNumber=200&param_AllowHttpsToPublicRuleNumber=205&param_AllowRemoteNetworkPublicRuleNumber=105&param_AllowReturnTrafficToPublicRuleNumber=900&param_AllowVpcSubnetsRuleNumber=100&param_AvailabilityZone1=a&param_AvailabilityZone2=b&param_DeleteAfter=00%2F00%2F201x&param_Deny8080ToPublicRuleNumber=830&param_Deny8443ToPublicRuleNumber=835&param_DenyAuroraToPublicRuleNumber=810&param_DenyMysqlToPublicRuleNumber=800&param_DenyNFSToPublicRuleNumber=815&param_DenyOracleToPublicRuleNumber=805&param_DenyPostgreToPublicRuleNumber=825&param_DenyRDPToPublicRuleNumber=820&param_Owner=FirstName%20LastName&param_PrivateSubnetCidrBlock1=10.0.4.0%2F24&param_PrivateSubnetCidrBlock2=10.0.5.0%2F24&param_Project=MySQL%20RDS%20Creation&param_PublicSubnetCidrBlock1=10.0.1.0%2F24&param_PublicSubnetCidrBlock2=10.0.2.0%2F24&param_SSHLocation=0.0.0.0%2F0&param_VPCSubnetCidrBlock=10.0.0.0%2F16" target="_blank"><img src="https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png"></a>
+                        <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fs3-external-1.amazonaws.com%2Fcf-templates-1lev62qykeen-us-east-1%2F2020117SYK-new.templateqb2p3vhbbv&stackName=aaaa&param_AllowAllInboundPrivateRuleNumber=150&param_AllowAllOutboundPrivateRuleNumber=100&param_AllowAllOutboundPublicRuleNumber=100&param_AllowHttpToPublicRuleNumber=200&param_AllowHttpsToPublicRuleNumber=205&param_AllowRemoteNetworkPublicRuleNumber=105&param_AllowReturnTrafficToPublicRuleNumber=900&param_AllowVpcSubnetsRuleNumber=100&param_AvailabilityZone1=a&param_AvailabilityZone2=b&param_DeleteAfter=00%2F00%2F201x&param_Deny8080ToPublicRuleNumber=830&param_Deny8443ToPublicRuleNumber=835&param_DenyAuroraToPublicRuleNumber=810&param_DenyMysqlToPublicRuleNumber=800&param_DenyNFSToPublicRuleNumber=815&param_DenyOracleToPublicRuleNumber=805&param_DenyPostgreToPublicRuleNumber=825&param_DenyRDPToPublicRuleNumber=820&param_Owner=FirstName%20LastName&param_PrivateSubnetCidrBlock1=10.0.4.0%2F24&param_PrivateSubnetCidrBlock2=10.0.5.0%2F24&param_Project=MySQL%20RDS%20Creation&param_PublicSubnetCidrBlock1=10.0.1.0%2F24&param_PublicSubnetCidrBlock2=10.0.2.0%2F24&param_SSHLocation=0.0.0.0%2F0&param_VPCSubnetCidrBlock=10.0.0.0%2F16" target="_blank"><img src=""></a>
                     </td>
                 </tr>
             </table>
