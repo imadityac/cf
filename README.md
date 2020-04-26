@@ -28,7 +28,7 @@
            </ol>
             <h6>Public S3 URL</h6>
             <ol>
-             <oi>https://s3.amazonaws.com/stelligent-public/cloudformation-templates/github/vpc.yml</li>
+             <oi>https://s3-external-1.amazonaws.com/cf-templates-1lev62qykeen-us-east-1/2020117SYK-new.templateqb2p3vhbbv</li>
             </ol>
         </td>
         <td nowrap width="200" valign="top">
