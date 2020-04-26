@@ -8,16 +8,14 @@
            <h6>Create Details</h6>
            <ol>
             <li>Single VPC</li>
-            <li>3 Public Subnets</li>
-            <li>3 Private Subnets</li>
+            <li>2 Public Subnets</li>
+            <li>2 Private Subnets</li>
             <li>Public Route Table</li>
             <li>Private Route Table</li>
             <li>Internet Gateway</li>
             <ul>
               <li>Attached to the Public Route Table</li>
             </ul>
-            <li>Public Network ACL</li>
-            <li>Private Network ACL</li>
             <li>VPC Endpoint</li>
             <li>Instance Access Security Group</li>
             <ul>
