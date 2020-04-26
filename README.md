@@ -18,13 +18,7 @@
             </ul>
             <li>VPC Endpoint</li>
             <li>Instance Access Security Group</li>
-            <ul>
-              <li>Instance to Instance Access</li>
-            </ul>
-            <li>Remote Access Security Group</li>
-            <ul>
-              <li>This can be used for to allow site-to-site VPN or Direct Connect Networks access to instances.</li>
-            </ul>
+           
            </ol>
             <h6>Public S3 URL</h6>
             <ol>
