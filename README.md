@@ -48,9 +48,7 @@
                     <th align="left">View in Designer</th>
                 </tr>
                 <tr>
-                    <td>
-                        <a href="https://console.aws.amazon.com/cloudformation/designer/home?region=us-west-2&templateURL=https://s3.amazonaws.com/stelligent-public/cloudformation-templates/github/vpc.json" target="_blank"><img src="" width:100% alt="View in Designer"></a>
-                    </td>
+
                 </tr>
             </table>
         </td>
