@@ -52,16 +52,6 @@
                     </td>
                 </tr>
             </table>
-            <table>
-                <tr>
-                    <th align="left">How To Video</th>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="https://youtu.be/0bf2w0zSsWM" target="_blank"><img src="https://s3.amazonaws.com/stelligent-public/media/images/screenshots/HowTo_Stelligent_YouTube_144x81.jpg" width:100% alt="HowTo Video"></a>
-                    </td>
-                </tr>
-            </table>
         </td>
     </tr>
 </table>
