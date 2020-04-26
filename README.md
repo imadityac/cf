@@ -18,7 +18,6 @@
             </ul>
             <li>VPC Endpoint</li>
             <li>Instance Access Security Group</li>
-           
            </ol>
             <h6>Public S3 URL</h6>
             <ol>
