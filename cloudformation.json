@@ -580,6 +580,56 @@
                 }
             }
         },
+        "launchConfigNamecf": {
+            "Type": "AWS::AutoScaling::LaunchConfiguration",
+            "Properties": {
+                "IamInstanceProfile": "arn:aws:iam::779803362122:instance-profile/ec2fullrole",
+                "ImageId": "ami-068663a3c619dd892",
+                "InstanceMonitoring": "false",
+                "InstanceType": "t2.micro",
+                "UserData": {
+                    "Fn::Base64": {
+                        "Fn::Join": [
+                            "",
+                            [
+                                "#!/bin/bash -ex",
+                                "-"
+                            ]
+                        ]
+                    }
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "f8d9ab93-3cac-4d02-b2a8-43b1e5ff3020"
+                }
+            }
+        },
+        "autoscallinggrp": {
+            "Type": "AWS::AutoScaling::AutoScalingGroup",
+            "Properties": {
+                "AvailabilityZones": [
+                    "us-east-1a"
+                ],
+                "LaunchConfigurationName": {
+                    "Ref": "launchConfigNamecf"
+                },
+                "MaxSize": "2",
+                "MinSize": "1",
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "-",
+                        "PropagateAtLaunch": "True"
+                    }
+                ]
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "3a826746-2d96-47ff-93fe-d55fc2afdef0"
+                }
+            }
+        },
         "Private0": {
             "Type": "AWS::EC2::Instance",
             "Properties": {
@@ -809,8 +859,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 420,
-                    "y": 270
+                    "x": 360,
+                    "y": 300
                 },
                 "z": 3,
                 "parent": "5a5f5122-f5a5-4d7a-91b5-4c2f4f877b9e",
@@ -885,13 +935,21 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 170,
-                    "y": 1120
+                    "x": 180,
+                    "y": 1110
                 },
                 "z": 2,
                 "parent": "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
                 "embeds": [],
                 "iscontainedinside": [
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
+                    "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
                     "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
                     "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
                     "42f871f2-364f-4d5e-bc2d-5d7b00697c63",
@@ -912,13 +970,21 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 880,
-                    "y": 890
+                    "x": 750,
+                    "y": 810
                 },
                 "z": 3,
                 "parent": "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
                 "embeds": [],
                 "iscontainedinside": [
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
+                    "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
                     "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
                     "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
                     "3e6fa68b-2e9f-497f-a266-5b3b2200e128",
@@ -943,8 +1009,8 @@
                     "height": 60
                 },
                 "position": {
-                    "x": 1310,
-                    "y": 830
+                    "x": 1200,
+                    "y": 750
                 },
                 "z": 3,
                 "parent": "1ff2cf66-263b-47b2-921e-0c0124aedca4",
@@ -952,10 +1018,44 @@
                 "iscontainedinside": [
                     "1ff2cf66-263b-47b2-921e-0c0124aedca4",
                     "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
+                    "1ff2cf66-263b-47b2-921e-0c0124aedca4",
                     "1ff2cf66-263b-47b2-921e-0c0124aedca4"
+                ]
+            },
+            "f8d9ab93-3cac-4d02-b2a8-43b1e5ff3020": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 60,
+                    "y": 1230
+                },
+                "z": 1,
+                "embeds": []
+            },
+            "3a826746-2d96-47ff-93fe-d55fc2afdef0": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 180,
+                    "y": 1230
+                },
+                "z": 1,
+                "embeds": [],
+                "isassociatedwith": [
+                    "f8d9ab93-3cac-4d02-b2a8-43b1e5ff3020"
                 ]
             }
         }
     }
 }
-
