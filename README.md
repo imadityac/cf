@@ -24,8 +24,5 @@
              <oi>https://cf-templates-1lev62qykeen-us-east-1.s3.amazonaws.com/2020117SYK-new.templateqb2p3vhbbv.json</li>
             </ol>
         </td>
-        <td nowrap width="200" valign="top">
-            1.https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/stackinfo?stackId=arn%3Aaws%3Acloudformation%3Aus-east-1%3A779803362122%3Astack%2Fcf-assignment%2Fe4e06320-896e-11ea-9916-0e763951b664
-        </td>
     </tr>
 </table>
