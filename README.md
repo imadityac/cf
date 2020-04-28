@@ -22,7 +22,7 @@
            </ol>
             <h6>Public S3 URL</h6>
             <ol>
-             <oi>https://cf-templates-1lev62qykeen-us-east-1.s3.amazonaws.com/2020117SYK-new.templateqb2p3vhbbv.json</li>
+             <oi>https://cf-templates-1lev62qykeen-us-east-1.s3.amazonaws.com/cf.json</li>
             </ol>
         </td>
     </tr>
