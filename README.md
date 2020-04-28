@@ -17,7 +17,8 @@
               <li>Attached to the Public Route Table</li>
             </ul>
             <li>VPC Endpoint</li>
-            <li>Instance Access Security Group</li>
+            <li>web Security Group</li>
+            <li>Aws AutoScalingGroup</li>
            </ol>
             <h6>Public S3 URL</h6>
             <ol>
